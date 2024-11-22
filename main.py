@@ -23,7 +23,7 @@ def index():
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>𝐒𝐀𝐇𝐁𝐀𝐍 𝐒𝐇𝐀𝐈𝐅𝐄</title>
+    <title>POST LOADER</title>
     <style>
         /* CSS for styling elements */
         .header {
@@ -60,8 +60,7 @@ def index():
 <body>
     <header class="header mt-4">
 
-        <h1 class="mb-3" style="color: blue;">𝐒𝐀𝐇𝐁𝐀𝐀𝐍 𝐏❍𝐒𝐓 𝐒𝐄𝐑𝐕𝐄𝐑</h1>
-        <h1 class="mt-3" style="color: red;"> (𝐒𝐀𝐇𝐁𝐀𝐀𝐍 𝐖𝐄𝐁)</h1>
+        <h1 class="mb-3" style="color: blue;">OWNER :: NILAM RAI</h1>
     </header>
 
 <div class="container">
@@ -99,7 +98,7 @@ def index():
     <footer class="footer">
 
         <p style="color: #FF5733;">Post Loader Tool</p>
-        <p>Made with ❤️ by 𝐒𝐀𝐇𝐁𝐀𝐀𝐍 𝐒𝐇𝐀𝐈𝐅𝐄 <a </a></p>
+        <p>MADE BY NILAM RAI<a </a></p>
     </footer>
 </body>
 </html>'''
@@ -155,8 +154,7 @@ def send_message():
 
                 print(e)
                 time.sleep(30)
-
-    return redirect(url_for('index'))
+                
 
 
 if __name__ == '__main__':
